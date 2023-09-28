@@ -1,0 +1,8 @@
+<!doctype html>
+<html>
+<body>
+<p id="demo" What can Js Do? </p>
+<button type="button" onclick="document.getElementById("demo").style.display="none"">Click Me! </button>
+
+</html>
+</body>
