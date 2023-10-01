@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2> JS variables </h2>
+<p id ="demo"></p>
+<script>
+<!-- create and display a variable: -->
+let car = "Fiat";
+document.getElementById("demo").innerHTML = car;
+</script>
+</body>
+</html>

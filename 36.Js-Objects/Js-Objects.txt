@@ -1,0 +1,25 @@
+<!-- Js Objects
+Real Life Objects, Properties, and Methods
+In real life, a car is an object.
+A car has properties like weight and color, and methods like start and stop:
+Jastai object is a CAR
+Yesto properties vaneko model, wight, color , which can be call as (car.name = suzuki, car.model = 500, ) Car Methods chai , car.start(), car.drive()
+All cars have the same properties, but the property values differ from car to car.
+All cars have the same methods, but the methods are performed at different times.
+JavaScript Objects
+You have already learned that JavaScript variables are containers for data values.
+This code assigns a simple value (Fiat) to a variable named car:
+
+-->
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Variables</h2>
+<p id="demo"></p>
+<script>
+//Create and display a variable:
+let car =  "BMW"
+document.getElementById("demo").innerHTML = car;
+</script>
+</body>
+</html>

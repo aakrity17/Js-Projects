@@ -1,0 +1,6 @@
+<script>
+const bioData = {
+name : "vinod", age : 21 , deg : "BCA"
+}
+console.log("My name is ${name}. MY age is ${age} and MY higest qual. is ${deg}. ");
+</script>

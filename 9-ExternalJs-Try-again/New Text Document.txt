@@ -1,0 +1,27 @@
+<!-- External Js
+External Scripts are practical when the same code in used in many different web pages js files have the file extension .js
+
+to use an external script, put the name of the script file in the src(Source) attibute of a
+
+We can link to js file as :<script src="myScript.js">
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Demo External JavaScript</h2>
+
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<p>This example links to "myScript.js".</p>
+<p>(myFunction is stored in "myScript.js")</p>
+
+<script src="myScript.js"></script>
+
+</body>
+</html>
+
+

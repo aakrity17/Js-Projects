@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<body>
+
+<h2> js Object </h2>
+<p>There are two different ways to access </p>
+<script>
+const person ={
+firstName: "John",
+lastName : "Doe",
+id :5566
+};
+document.getElementById("demo").innerHTML = person.firstName + " "+person.lastName;
+</script>
+</body>
+</html>

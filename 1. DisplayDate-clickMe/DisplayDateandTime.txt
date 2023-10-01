@@ -1,0 +1,24 @@
+<!Doctype html>
+
+<html>
+
+<body>
+
+<h2> JavaScript is fun! </h2>
+
+
+ 
+<button type="button"
+
+
+
+onclick ="document.getElementById('demo').innerHtml=Date()">
+Click Me to display Date and Time. </button>
+
+<button type= "button"
+onclick= "document.getElementById("demo").innerHtml = Date()">
+
+<p id = "demo"></p>
+
+</body>
+</html>

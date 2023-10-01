@@ -1,0 +1,22 @@
+<!-- JavaScrit Function 
+A Js function is a block of code designed to perfom a particular task. A js function is executed when "Something" invoked it (calls it).
+-->
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Class</h2>
+<p>How to use a JavaScript Class.</p>
+<p id ="demo"> </p>
+<script>
+class Car{
+constructor(name, year)
+{
+this.name = name;
+this.year = year;
+}
+}
+const myCar = new Car("Ford", 2023);
+document.getElementById("demo").innerHTML = myCar.name + " " + myCar.year;
+</script>
+</body>
+</html>

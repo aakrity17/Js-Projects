@@ -1,0 +1,11 @@
+<!-- Using document.write() after an Html document is loade, will delete all existing Html -->
+<!doctype html>
+<html>
+<body>
+<h1>My First Web Page </h1>
+<p> My First Paragraph </p>
+<script>
+document.write(5 + 6);
+</script>
+</body>
+</html>

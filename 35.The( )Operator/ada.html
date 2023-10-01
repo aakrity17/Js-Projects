@@ -1,0 +1,21 @@
+<!-- The () Operator invokes the function
+using the example above, toCelsius refers to the function object, and toCelsius() refers to the function result.
+Accessing a function wihtout () will return the function object instead of the function result.
+-->
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Functions</h2>
+<p id="demo"></p>
+<script>
+// + toCelsius(77) + le ans dincha
+//+ toCelsius(77) ma auta parameter cha fahrenheit cha
+document.getElementById("demo").innerHTML = "The temperature is" + toCelsius(77) + "Celsius";
+
+function toCelsius(fahrenheit)
+{
+	return(5/9)* (fahrenheit -32);
+}
+</script>
+</body>
+</html>

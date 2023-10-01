@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    background: red;
+}
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digitalclock{
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: #ffff
+    background: rgba(0, 0, 0, 0.13);
+}
+.digitalclock h1 {
+    display: inline-block;
+    margin: 0 10x;
+    font-weight: bold;
+    font-size: 5rem;
+
+}
+@media(max-width:768px){
+    #bar1, #bar2 {
+        display: none;
+    }
+    .digitalclock{
+        text-align: center;
+        width: 100%;
+
+    }
+    .digitalclock h1{
+        display: block;
+
+    }
+}
+@media(max-width:480px)
+{
+    .digitalclock h1{
+        font-size: 4rem;
+    }
+}

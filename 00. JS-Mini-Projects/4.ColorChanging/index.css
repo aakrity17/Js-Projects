@@ -1,0 +1,9 @@
+.container{
+    /* border: 1px solid black ; */
+    /* for centering the class : container( element) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}

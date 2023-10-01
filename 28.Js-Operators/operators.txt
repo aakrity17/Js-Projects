@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<body>
+<p> JS uses arithmetic operators to compute values (just like algebra). </p>
+
+<p id ="demo"></p>
+<script>
+let x , y, z;
+x=6;
+y = 7;
+z= x + y;
+document.getElementById(demo).innerHTML = (x + y)* y;
+</script>
+</body>
+</html>

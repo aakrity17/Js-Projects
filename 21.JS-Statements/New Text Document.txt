@@ -1,0 +1,17 @@
+<!-- Semicolons; Semicolons separate Js statements, Add a semicolon at the end of each executable statement: -->
+
+<!doctype html>
+<body>
+<h2> Js Statements</h2>
+<p> Js Statements are separated by semicolons. </p>
+<p id = "demo"> </p>
+<script>
+let a , b, c;
+a =1;
+b=2;
+c= a+b;
+document.getElementById("demo").innerHTML = c;
+</script>
+
+</body>
+</html>
